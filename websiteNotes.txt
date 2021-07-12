@@ -1,0 +1,11 @@
+website:
+
+-Will be about projects, bio, internships.
+
+
+
+font:
+
+html    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+css     font-family: 'Abril Fatface', cursive;
