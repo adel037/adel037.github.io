@@ -1,15 +1,15 @@
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Adrian De La Torre';
 
-let myImage = document.querySelector('img');
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/Cherry-Blossom-Wallpaper.jpg') {
-      myImage.setAttribute ('src','images/x6JeNye.jpg');
-    } else {
-      myImage.setAttribute ('src','images/Cherry-Blossom-Wallpaper.jpg');
-    }
-}
+// let myImage = document.querySelector('img');
+// myImage.onclick = function() {
+//     let mySrc = myImage.getAttribute('src');
+//     if(mySrc === 'images/Adrian De La Torre_square.jpg') {
+//       myImage.setAttribute ('src','images/x6JeNye.jpg');
+//     } else {
+//       myImage.setAttribute ('src','images/Adrian De La Torre_square.jpg');
+//     }
+// }
 
 //--- user welcome 
 // let myButton = document.querySelector('button');
