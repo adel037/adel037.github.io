@@ -1,5 +1,5 @@
 let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+myHeading.textContent = 'Adrian De La Torre';
 
 let myImage = document.querySelector('img');
 myImage.onclick = function() {
@@ -12,24 +12,24 @@ myImage.onclick = function() {
 }
 
 //--- user welcome 
-let myButton = document.querySelector('button');
-myHeading = document.querySelector('h1');
-function setUserName() {
-    let myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
-}
+// let myButton = document.querySelector('button');
+// myHeading = document.querySelector('h1');
+// function setUserName() {
+//     let myName = prompt('Please enter your name.');
+//     localStorage.setItem('name', myName);
+//     myHeading.textContent = 'Mozilla is cool, ' + myName;
+// }
 
-if(!localStorage.getItem('name')) {
-    setUserName();
-} 
-else {
-    let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Welcome, ' + storedName;
-}
+// if(!localStorage.getItem('name')) {
+//     setUserName();
+// } 
+// else {
+//     let storedName = localStorage.getItem('name');
+//     myHeading.textContent = 'Welcome, ' + storedName;
+// }
 
-//let user change username
-myButton.onclick = function() {
-    setUserName();
-  }
+// //let user change username
+// myButton.onclick = function() {
+//     setUserName();
+//   }
 //---
