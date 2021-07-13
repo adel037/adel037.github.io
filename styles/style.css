@@ -1,6 +1,7 @@
 html {
   font-size: 10;
   font-family: 'Roboto';
+  color: #F2E2DC;
   /* border: 5px solid black; */
 }
 
@@ -9,7 +10,6 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #F2E2DC;
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */
 }
 
@@ -18,7 +18,6 @@ h2 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #F2E2DC;
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */  
 }
 
@@ -27,7 +26,6 @@ p, li {
   line-height: 1.2;
   letter-spacing: 1px;
   text-align: center;
-  color: #F2E2DC;
 }
 
 body {
@@ -43,4 +41,27 @@ img {
   margin: 0 auto;
   width: 300px;
 
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  float: none;
+}
+
+.div1 {
+  float: left;
+  padding-left: 150px;
+  padding-top: 150px;
+}
+
+.div2 {
+  float: right;
+  text-align: right;
+  padding-right: 150px;
+  padding-top: 150px;
+}
+
+b {
+  font-size: 25px;
 }
