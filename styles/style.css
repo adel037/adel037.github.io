@@ -88,3 +88,12 @@ b {
   height: 100%;
 
 }
+
+.pdf {
+  width: 50%;
+  height: 750px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+
+}
