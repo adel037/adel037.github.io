@@ -9,7 +9,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 50px;
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */
 }
 
@@ -17,7 +17,7 @@ h2 {
   font-size: 45px;
   text-align: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 50px;
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */  
 }
 
@@ -96,4 +96,38 @@ b {
   display: block;
   margin: 0 auto;
 
+}
+
+.contact {
+  /* border: 1px solid #000; */
+  line-height: 2.1;
+  font-weight: normal;
+}
+
+i {
+  padding-left: 35%;
+}
+
+.leftIcon {
+  text-align: right;
+  float: left;
+  width: 33%;
+}
+.rightIcon {
+  float: left;
+  width: 61%;
+  padding-left: 5%;
+}
+
+.fas, .fab {
+  text-decoration: none;
+}
+
+.fas:hover, .fab:hover {
+  opacity: 0.5;
+}
+
+.fa-envelope, .fa-linkedin, .fa-github, .fa-home {
+  background: #82B0D9;
+  color: #F2E2DC;
 }
