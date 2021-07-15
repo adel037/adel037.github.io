@@ -1,5 +1,5 @@
-let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Adrian De La Torre';
+// let myHeading = document.querySelector('h1');
+// myHeading.textContent = 'Adrian De La Torre';
 
 // let myImage = document.querySelector('img');
 // myImage.onclick = function() {
@@ -33,3 +33,22 @@ myHeading.textContent = 'Adrian De La Torre';
 //     setUserName();
 //   }
 //---
+
+var mybuttonUp = document.getElementById("myBtnUp");
+
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybuttonUp.style.display = "block";
+  } else {
+    mybuttonUp.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

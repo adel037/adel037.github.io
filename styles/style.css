@@ -3,6 +3,7 @@ html {
   font-family: 'Roboto';
   color: #F2E2DC;
   /* border: 5px solid black; */
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -40,7 +41,7 @@ img {
   display: block;
   margin: 0 auto;
   width: 300px;
-
+  padding-top: 50px;
 }
 
 
@@ -130,4 +131,64 @@ i {
 .fa-envelope, .fa-linkedin, .fa-github, .fa-home {
   background: #82B0D9;
   color: #F2E2DC;
+}
+
+.tab {
+  /* overflow: hidden; */
+  background-color: #F2E2DC;
+  padding: none;
+  font-size: larger;
+  text-align: center;
+  border: none;
+  margin: none;
+  /* padding-bottom: 100px; */
+  height: 30px;
+  line-height: 30px;
+}
+
+.tabInd {
+  text-decoration: none;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  margin-right: 50px;
+  color: #82B0D9;
+  /* border: 1px solid #000; */
+  /* white-space: nowrap; */
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 31px;
+}
+
+.tabInd:hover {
+  background-color: #82B0D9;
+  color: #F2E2DC;
+}
+
+#myBtnUp {
+  display: none;
+  bottom: 30px;
+  right: 40px;
+  z-index: 99;
+  outline: none;
+  background-color: transparent;
+  color: #F2E2DC;
+  cursor: pointer;
+  padding: none;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 50px;
+  width: 50px;
+  /* border: 1px solid #000; */
+  text-decoration: none;
+  position: fixed;
+}
+
+.fa-arrow-alt-circle-up {
+  filter:drop-shadow(1px 1px 1px #364959);
 }
