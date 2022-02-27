@@ -84,6 +84,12 @@ b {
   padding-right: 10%;
 }
 
+.columnDescription {
+  font-size:medium;
+  padding-right: 20%;
+  flex-wrap: wrap;
+}
+
 .video {
 
   width: 100%;
