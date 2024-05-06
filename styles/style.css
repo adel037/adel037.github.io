@@ -102,10 +102,9 @@ b {
 .pdf {
   width: 50%;
   height: 750px;
-  border: 1px solid #F2E2DC;
+  border: 0px solid #F2E2DC;
   display: block;
   margin: 0 auto;
-
 }
 
 .contact {
