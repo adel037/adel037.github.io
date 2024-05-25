@@ -4,6 +4,7 @@ html {
   color: black;
   /* border: 5px solid black; */
   scroll-behavior: smooth;
+  letter-spacing: -0.3px;
 }
 
 h1 {
@@ -18,7 +19,10 @@ h2 {
   font-size: 45px;
   text-align: center;
   margin: 0;
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
   line-height: 1.5 * var(font-size);
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */  
 }
@@ -26,8 +30,7 @@ h2 {
 p, li {
   font-size: 22px;
   line-height: 1.2 * var(font-size);
-  letter-spacing: 1px;
-  text-align: center;
+  margin: auto;
 
 }
 
@@ -53,6 +56,15 @@ img {
 
 b {
   font-size: 25px;
+}
+
+.centerBody {
+  text-align: center;
+  width: auto;
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
 
 .row::after {
@@ -89,7 +101,7 @@ b {
 }
 
 .columnDescription {
-  font-size: large;
+  font-size: 22px;
   padding-right: 20%;
   flex-wrap: wrap;
   font-weight: normal;
