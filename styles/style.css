@@ -155,9 +155,16 @@ i {
   opacity: 0.5;
 }
 
-.fa-envelope, .fa-linkedin, .fa-github, .fa-home {
+.fa-envelope, .fa-linkedin, .fa-home {
   background: white;
   color: black;
+}
+
+.fa-github {
+  background: white;
+  color: black;
+  display: none; 
+  /* not displayed since no active github projects */
 }
 
 .tab {
