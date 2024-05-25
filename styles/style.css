@@ -1,7 +1,7 @@
 html {
   font-size: 10;
-  font-family: 'Roboto';
-  color: #F2E2DC;
+  font-family: Garamond;
+  color: black;
   /* border: 5px solid black; */
   scroll-behavior: smooth;
 }
@@ -19,20 +19,22 @@ h2 {
   text-align: center;
   margin: 0;
   padding: 50px;
+  line-height: 1.5 * var(font-size);
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */  
 }
 
 p, li {
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 22px;
+  line-height: 1.2 * var(font-size);
   letter-spacing: 1px;
   text-align: center;
+
 }
 
 body {
   /* width: 600px; */
   margin: 0 auto;
-  background-color: #82B0D9;
+  background-color: white;
   padding: 0px 20px 20px 20px;
   /* border: 5px solid black; */
 }
@@ -42,7 +44,9 @@ img {
   margin: 0 auto;
   width: 300px;
   /* padding-top: 50px; */
-  border: 1px solid #F2E2DC;
+  border: 1px solid lightgray;
+  border-radius: 1cap;
+  box-shadow: 5px 5px 7px lightgray;
 }
 
 
@@ -85,9 +89,10 @@ b {
 }
 
 .columnDescription {
-  font-size:medium;
+  font-size: large;
   padding-right: 20%;
   flex-wrap: wrap;
+  font-weight: normal;
 }
 
 .video {
@@ -95,14 +100,15 @@ b {
   width: 100%;
   height: 100%;
   /* filter: drop-shadow(10px 15px 1px #F2E2DC); */
-  border: 1px solid #F2E2DC;
-
+  border: 1px solid lightgrey;
+  border-radius: 1cap;
+  box-shadow: 5px 5px 7px lightgray;
 }
 
 .pdf {
   width: 50%;
   height: 750px;
-  border: 0px solid #F2E2DC;
+  border: 0px solid black;
   display: block;
   margin: 0 auto;
 }
@@ -137,13 +143,13 @@ i {
 }
 
 .fa-envelope, .fa-linkedin, .fa-github, .fa-home {
-  background: #82B0D9;
-  color: #F2E2DC;
+  background: white;
+  color: black;
 }
 
 .tab {
   /* overflow: hidden; */
-  background-color: #F2E2DC;
+  background-color: black;
   padding: none;
   font-size: larger;
   text-align: center;
@@ -161,7 +167,7 @@ i {
   padding-top: 10px;
   padding-bottom: 10px; */
   margin-right: 50px;
-  color: #82B0D9;
+  color: white;
   /* border: 1px solid #000; */
   /* white-space: nowrap; */
   width: 100px;
@@ -173,8 +179,8 @@ i {
 }
 
 .tabInd:hover {
-  background-color: #82B0D9;
-  color: #F2E2DC;
+  background-color: white;
+  color: black;
 }
 
 #myBtnUp {
@@ -184,7 +190,7 @@ i {
   z-index: 99;
   outline: none;
   background-color: transparent;
-  color: #F2E2DC;
+  color: black;
   cursor: pointer;
   padding: none;
   margin: 0 auto;
