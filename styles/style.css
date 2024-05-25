@@ -1,7 +1,8 @@
 html {
   font-size: 10;
   font-family: Garamond;
-  color: black;
+  --opacity: 1;
+  color: rgb(0, 0, 0, var(--opacity));
   /* border: 5px solid black; */
   scroll-behavior: smooth;
   letter-spacing: -0.3px;
@@ -19,10 +20,10 @@ h2 {
   font-size: 45px;
   text-align: center;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   line-height: 1.5 * var(font-size);
   /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */  
 }
