@@ -8,6 +8,26 @@ html {
   letter-spacing: -0.3px;
 }
 
+.divBackground {
+  
+}
+
+#element {
+  z-index: -100;
+  display: flex;
+
+}
+
+#wrapper {
+  position: relative;
+}
+
+.divContent {
+  padding: 0px 20px 20px 20px;
+  position: relative;
+  z-index: 100;
+}
+
 h1 {
   font-size: 60px;
   text-align: center;
@@ -25,10 +45,11 @@ h2 {
   padding-right: 50px;
   padding-bottom: 50px;
   line-height: 1.5 * var(font-size);
-  /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */  
+  /* text-shadow: -1px -1px 0 #59180A, 1px -1px 0 #59180A, -1px 1px 0 #59180A, 1px 1px 0 #59180A; */
 }
 
-p, li {
+p,
+li {
   font-size: 22px;
   line-height: 1.2 * var(font-size);
   margin: auto;
@@ -39,7 +60,6 @@ body {
   /* width: 600px; */
   margin: 0 auto;
   background-color: white;
-  padding: 0px 20px 20px 20px;
   /* border: 5px solid black; */
 }
 
@@ -141,21 +161,27 @@ i {
   float: left;
   width: 33%;
 }
+
 .rightIcon {
   float: left;
   width: 61%;
   padding-left: 5%;
 }
 
-.fas, .fab {
+.fas,
+.fab {
   text-decoration: none;
 }
 
-.fas:hover, .fab:hover {
+.fas:hover,
+.fab:hover {
   opacity: 0.5;
 }
 
-.fa-envelope, .fa-linkedin, .fa-github, .fa-home {
+.fa-envelope,
+.fa-linkedin,
+.fa-github,
+.fa-home {
   background: white;
   color: black;
 }
@@ -217,5 +243,5 @@ i {
 }
 
 .fa-arrow-alt-circle-up {
-  filter:drop-shadow(1px 1px 1px #364959);
+  filter: drop-shadow(1px 1px 1px #364959);
 }

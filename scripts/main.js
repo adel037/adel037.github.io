@@ -2,15 +2,29 @@
 // myHeading.textContent = 'Adrian De La Torre';
 
 let myImage = document.querySelector('img');
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/Adrian De La Torre_square.jpg') {
-      myImage.setAttribute ('src','images/square_alternate.jpg');
-    } else {
-      myImage.setAttribute ('src','images/Adrian De La Torre_square.jpg');
-    }
+myImage.onclick = function () {
+  let mySrc = myImage.getAttribute('src');
+  if (mySrc === 'images/Adrian De La Torre_square.jpg') {
+    myImage.setAttribute('src', 'images/square_alternate.jpg');
+  } else {
+    myImage.setAttribute('src', 'images/Adrian De La Torre_square.jpg');
+  }
 }
 
+VANTA.GLOBE({
+  el: "#element",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x0,
+  color2: 0x0,
+  size: 0.50,
+  backgroundColor: 0xffffff,
+})
 //--- user welcome 
 // let myButton = document.querySelector('button');
 // myHeading = document.querySelector('h1');
@@ -36,8 +50,8 @@ myImage.onclick = function() {
 
 var mybuttonUp = document.getElementById("myBtnUp");
 
-window.onscroll = function() {
-    scrollFunction()
+window.onscroll = function () {
+  scrollFunction()
 };
 
 function scrollFunction() {
