@@ -25,10 +25,11 @@ const effect = VANTA.BIRDS({
   color2: 0xedf1ff,
   colorMode: "lerpGradient",
   birdSize: 0.50,
-  wingSpan: 15.00,
+  wingSpan: 10.00,
   speedLimit: 0.5,
-  quantity: 5.00,
-  backgroundAlpha: 0.00
+  separation: 70.00,
+  alignment: 21.00,
+  cohesion: 90.00
 })
 
 window.addEventListener('resize', function() {
