@@ -11,7 +11,7 @@ myImage.onclick = function () {
   }
 }
 
-VANTA.GLOBE({
+const effect = VANTA.GLOBE({
   el: "#element",
   mouseControls: true,
   touchControls: true,
@@ -23,8 +23,13 @@ VANTA.GLOBE({
   color: 0x0,
   color2: 0x0,
   size: 0.50,
-  backgroundColor: 0xffffff,
+  backgroundColor: 0xffffff
 })
+
+window.addEventListener('resize', function() {
+  effect.resize();
+});
+
 //--- user welcome 
 // let myButton = document.querySelector('button');
 // myHeading = document.querySelector('h1');
