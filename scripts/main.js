@@ -2,14 +2,38 @@
 // myHeading.textContent = 'Adrian De La Torre';
 
 let myImage = document.querySelector('img');
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/Adrian De La Torre_square.jpg') {
-      myImage.setAttribute ('src','images/square_alternate.jpg');
-    } else {
-      myImage.setAttribute ('src','images/Adrian De La Torre_square.jpg');
-    }
+myImage.onclick = function () {
+  let mySrc = myImage.getAttribute('src');
+  if (mySrc === 'images/Adrian De La Torre_square.jpg') {
+    myImage.setAttribute('src', 'images/square_alternate.jpg');
+  } else {
+    myImage.setAttribute('src', 'images/Adrian De La Torre_square.jpg');
+  }
 }
+
+const effect = VANTA.BIRDS({
+  el: "#element",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0xffffff,
+  color1: 0xd6d6d6,
+  color2: 0xedf1ff,
+  colorMode: "lerpGradient",
+  birdSize: 0.50,
+  wingSpan: 15.00,
+  speedLimit: 0.5,
+  quantity: 4.00,
+  backgroundAlpha: 0.00
+})
+
+window.addEventListener('resize', function() {
+  effect.resize();
+});
 
 //--- user welcome 
 // let myButton = document.querySelector('button');
@@ -36,8 +60,8 @@ myImage.onclick = function() {
 
 var mybuttonUp = document.getElementById("myBtnUp");
 
-window.onscroll = function() {
-    scrollFunction()
+window.onscroll = function () {
+  scrollFunction()
 };
 
 function scrollFunction() {
