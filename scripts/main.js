@@ -27,7 +27,7 @@ const effect = VANTA.BIRDS({
   birdSize: 0.50,
   wingSpan: 15.00,
   speedLimit: 0.5,
-  quantity: 4.00,
+  quantity: 5.00,
   backgroundAlpha: 0.00
 })
 
