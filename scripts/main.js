@@ -11,7 +11,7 @@ myImage.onclick = function () {
   }
 }
 
-const effect = VANTA.GLOBE({
+const effect = VANTA.BIRDS({
   el: "#element",
   mouseControls: true,
   touchControls: true,
@@ -20,10 +20,15 @@ const effect = VANTA.GLOBE({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x0,
-  color2: 0x0,
-  size: 0.50,
-  backgroundColor: 0xffffff
+  backgroundColor: 0xffffff,
+  color1: 0xd6d6d6,
+  color2: 0xedf1ff,
+  colorMode: "lerpGradient",
+  birdSize: 0.50,
+  wingSpan: 15.00,
+  speedLimit: 0.5,
+  quantity: 4.00,
+  backgroundAlpha: 0.00
 })
 
 window.addEventListener('resize', function() {
