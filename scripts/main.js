@@ -29,7 +29,8 @@ const effect = VANTA.BIRDS({
   speedLimit: 0.5,
   separation: 70.00,
   alignment: 21.00,
-  cohesion: 90.00
+  cohesion: 90.00,
+  quantity: 4.00
 })
 
 window.addEventListener('resize', function() {
